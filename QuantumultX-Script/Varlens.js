@@ -2,7 +2,7 @@
 QX:
 [rewrite_local]
 #Varlens解锁PRO
-^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body vspro.js
+^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/SeanWang1224/QuantumultX/master/QuantumultX-Script/Varlens.js
 
 [mitm]
 hostname = mid.zineapi.com
