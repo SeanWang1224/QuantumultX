@@ -263,7 +263,7 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 #ctier=[A-Z] url 302 ctier=A
 #^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
 
-#Netflix 评分 (ios-h2.prod.ftl.netflix.com)
+#Netflix rating (ios-h2.prod.ftl.netflix.com)
 ^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 ^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 
