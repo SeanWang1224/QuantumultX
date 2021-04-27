@@ -1,4 +1,10 @@
- hostname = diary.7english.cn, biz.lemonyd.com,account.wps.cn, i.at.qq.com,gateway-api.*.com,api.*.com,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,api.gotokeep.com,59.110.149.231,129.211.156.213,claritywallpaper.com,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,ftvn.hawsing.com.tw:3000,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,api1.dobenge.cn,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com, pan.baidu.com,api.textnow.me,vira.llsapp.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,api.meiyan.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, api.bilibili.com,*.amemv.com,aweme*.snssdk.com,ios-h2.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,api.m.jd.com, trade-acs.m.taobao.com
+ hostname = getuserinfo-globalapi.zymk.cn,api.polaxiong.com,diary.7english.cn, biz.lemonyd.com,account.wps.cn, i.at.qq.com,gateway-api.*.com,api.*.com,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,api.gotokeep.com,59.110.149.231,129.211.156.213,claritywallpaper.com,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,ftvn.hawsing.com.tw:3000,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,api1.dobenge.cn,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com, pan.baidu.com,api.textnow.me,vira.llsapp.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,api.meiyan.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, api.bilibili.com,*.amemv.com,aweme*.snssdk.com,ios-h2.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,api.m.jd.com, trade-acs.m.taobao.com
+
+# 知音漫客VIP (getuserinfo-globalapi.zymk.cn,)
+^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+
+#泼辣修图    api.polaxiong.com
+https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts/confirmation url script-request-body https://qxzy.top/rules/QuantumultX/js/pola.js
 
 # moo日记（搞机大神抓包，公众号少年歌行pro适配圈x;diary.7english.cn）
 https://diary.7english.cn:2433/api/user/userInfo url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/moo/moo.js
@@ -205,18 +211,14 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 
-# YouTube去广告(*.googlevideo.com)
-(^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
-#新版YouTube去广告
-#ctier=[A-Z] url 302 ctier=A
-#^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
-
 # Netflix rating (ios-h2.prod.ftl.netflix.com)
-;^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-;^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
  
- # Netflix rating (ios.prod.ftl.netflix.com)
+# Netflix rating (ios.prod.ftl.netflix.com)
+;^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+;^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+# 显示netflix的收视率（IMDb） ios.prod.ftl.netflix.com
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
  
@@ -237,11 +239,9 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) url reject-dict
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject-dict
  
- 
-
-#京东 历史价格（api.m.jd.com, trade-acs.m.taobao.com）
+# 京东 历史价格（api.m.jd.com, trade-acs.m.taobao.com）
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
-#淘宝 历史价格
+# 淘宝 历史价格
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
