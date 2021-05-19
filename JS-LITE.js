@@ -239,9 +239,9 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) url reject-dict
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject-dict
  
-# 京东 历史价格（api.m.jd.com, trade-acs.m.taobao.com）
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/jd_price.js
+# 京东 历史价格（api.m.jd.com）
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
-# 淘宝 历史价格
+# 淘宝 历史价格(trade-acs.m.taobao.com)
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
