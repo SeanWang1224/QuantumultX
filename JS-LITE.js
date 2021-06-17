@@ -4,7 +4,7 @@
 ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/clarity.js
 
 #documents(license.pdfexpert.com)
-;^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/documents.js
+#^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/documents.js
 
 # Vizmato 破解VIP无限使用高级功能（web.vizmato.com,）
 https://web.vizmato.com/itunesreceipt_v5.php url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/vm.js 
