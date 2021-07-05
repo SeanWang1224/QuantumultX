@@ -1,4 +1,16 @@
- hostname = guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,claritywallpaper.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,api.gotokeep.com,59.110.149.231,129.211.156.213,claritywallpaper.com,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.comapi.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,api1.dobenge.cn,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com, pan.baidu.com,api.textnow.me,vira.llsapp.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,api.meiyan.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, api.bilibili.com,*.amemv.com,aweme*.snssdk.com,ios-h2.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,api.m.jd.com, trade-acs.m.taobao.com
+ hostname =  api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,claritywallpaper.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,api.gotokeep.com,59.110.149.231,129.211.156.213,claritywallpaper.com,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.comapi.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,vira.llsapp.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,api.meiyan.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, api.bilibili.com,*.amemv.com,ios-h2.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,api.m.jd.com, trade-acs.m.taobao.com
+
+# 爱美剧Vip (by huihui）(官网：app.meiju2018.com)    api.bjxkhc.com
+#ads
+^http(s)://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
+^http(s)://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
+^http(s)://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
+#VIP&ads
+^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
+
+
+#substore    浏览器访问https://sub-store.vercel.app/#/
+^https?:\/\/sub\.store url script-analyze-echo-response https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
 
 #取消绑定京东店铺会员。 点击会员卡直达注销页面
 #^https:\/\/shopmember\.m\.jd\.com\/shopcard\/\?(venderId=[0-9]+).* url 302 https:\/\/shopmember\.m\.jd\.com\/member\/memberCloseAccount\?$1
@@ -80,6 +92,9 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
 
+#酷我换肤(已经有的皮肤需要先从本地皮肤删除再换)
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body   https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js
+
 # VSCO滤镜VIP( vsco.co, api.revenuecat.com)
 ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
@@ -98,9 +113,6 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 
 # Gyroscope 解锁 pro ( api.gyrosco.pe)
 ^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/gyroscope.js
-
-# 水印精灵 vip (api1.dobenge.cn)
-^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
 
 # JibJab解锁pro(origin-prod-phoenix.jibjab.com)
 ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js
@@ -128,9 +140,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 # Splice 视频编辑器 pro(splice.oracle.*.com)
 ^https:\/\/splice\.oracle\.\w+\.com\/devices\/me url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Splice.js
-
-# 百度云倍速播放( pan.baidu.com)
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
 # textnow去广告(api.textnow.me)
 ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/textnow.js
@@ -206,14 +215,19 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 # 哔哩哔哩番剧开启1080P+(api.bilibili.com))
 ^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
 
-# 抖音去广告去水印 (*.amemv.com,aweme*.snssdk.com)
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
+#解决抖音无法观看   -*.amemv.com, -*.snssdk.com
+
+# 抖音去广告去水印 (*.amemv.com)
+^https?:\/\/.*\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ url request-header ^GET \/aweme\/v\d\/(follow\/)?feed\/(.+\r\n) request-header GET /aweme/v1/$1feed/$2 
+^https?:\/\/.*\.amemv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/douyin.js
 
 # Netflix rating (ios-h2.prod.ftl.netflix.com)
 ^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 ^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-
+ 
+# Netflix rating (ios.prod.ftl.netflix.com)
+;^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+;^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 # 显示netflix的收视率（IMDb） ios.prod.ftl.netflix.com
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
