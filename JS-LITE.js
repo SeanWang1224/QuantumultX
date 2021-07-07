@@ -64,7 +64,7 @@ https://api.gotokeep.com/(.+/subject|.+/dynamic|.+/coursePlus/.+|.+/status|.+/ta
 # 百度防跳转
 ^https?:\/\/.*\.baidu\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
 
-# > CSDN(,*.csdn.net)
+# CSDN(,*.csdn.net)
 .*:\/\/.*\.csdn\.net\/.* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/csdn.js
 
 # Varlens解锁PRO(mid.zineapi.com)
@@ -194,12 +194,6 @@ https://app.api.versa-ai.com/pay/order/iap/check url script-response-body https:
 
 # 迅捷应用6合1 （*.xunjie*.com,）
 ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js
-
-# 小睡眠（by 黑黑酱）
-^https:\/\/api\.psy-1\.com\/cosleep\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js
-
-# 蜗牛睡眠会员（by黑黑酱）
-^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wnsm.js
 
 # 西窗烛 （avoscloud.com）
 ^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js
