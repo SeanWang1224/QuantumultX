@@ -18,7 +18,7 @@ obj = {
         "status": "active",
         "originalPurchaseDate": "2021-11-01T17:55:01.000Z",
         "originalTransactionId": "1",
-        "expirationDate": "2022-11-15T18:55:00.000Z",
+        "expirationDate": "2033-11-15T18:55:00.000Z",
         "productId": "com.gingerlabs.Notability.premium_subscription",
         "tier": "premium",
         "refundedDate": null,
