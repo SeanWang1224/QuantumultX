@@ -2,7 +2,7 @@
 by：不爱吃麦丽素 
 
 QX1.0.0:
-https://notability.com/subscriptions url script-response-body notability.js
+https://notability.com/subscriptions url script-response-body https://raw.githubusercontent.com/SeanWang1224/QuantumultX/master/QuantumultX-Script/Notability.js
 
 MITM = notability.com
 */
