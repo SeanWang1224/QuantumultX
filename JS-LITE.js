@@ -1,7 +1,9 @@
- hostname =api2.fitplanapp.com,*.baidu.com,guide-acs.m.taobao.com, weixin110.qq.com,notability.com, openapi.17usoft.net,bmall.camera360.com,mp.weixin.qq.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,claritywallpaper.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,api.gotokeep.com,59.110.149.231,129.211.156.213,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.com,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,vira.llsapp.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,api.meiyan.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com
+ hostname =origin-prod-phoenix.jibjab.com,api2.fitplanapp.com,*.baidu.com,guide-acs.m.taobao.com, weixin110.qq.com,notability.com, openapi.17usoft.net,bmall.camera360.com,mp.weixin.qq.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,claritywallpaper.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,api.gotokeep.com,59.110.149.231,129.211.156.213,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.com,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,vira.llsapp.com,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,api.meiyan.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com
 
-# > 026 Fitplan （20201107） by ddgksf2013 api2.fitplanapp.com
-https://api2.fitplanapp.com/fitplan-server/v2/user/profile url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fitplan.js
+
+
+# 国区TF无法下载已下架app规则
+^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*", request-body storefrontId" : "143441-1,29",
 
 # 替换支付宝内淘票票评分为豆瓣评分 guide-acs.m.taobao.com
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid url script-response-body https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
@@ -46,9 +48,6 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^http(s)://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
 # VIP&ads
 ^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
-
-# substore    浏览器访问https://sub-store.vercel.app/#/
-^https?:\/\/sub\.store url script-analyze-echo-response https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
 
 # 取消绑定京东店铺会员。 点击会员卡直达注销页面
 #^https:\/\/shopmember\.m\.jd\.com\/shopcard\/\?(venderId=[0-9]+).* url 302 https:\/\/shopmember\.m\.jd\.com\/member\/memberCloseAccount\?$1
@@ -214,7 +213,7 @@ https:\/\/www\.xmind\.cn\/\_res\/devices url script-response-body https://raw.gi
 ^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/VideoStar.js
 
 # Pillow (api.revenuecat.com)
-;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
+https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
 
 # 马卡龙 (app.api.versa-ai.com)
 https://app.api.versa-ai.com/pay/order/iap/check url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mkl.js
@@ -240,8 +239,6 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 
 # 去微信公众号广告 (mp.weixin.qq.com,)
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-
-# 解决抖音无法观看   -*.amemv.com, -*.snssdk.com
 
 # 抖音去广告去水印 (*.amemv.com)
 ^https?:\/\/.*\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ url request-header ^GET \/aweme\/v\d\/(follow\/)?feed\/(.+\r\n) request-header GET /aweme/v1/$1feed/$2 
@@ -275,3 +272,132 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) url reject-dict
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject-dict
  
+# ================ Safari全能搜索 开始 ================
+# Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
+#  注：先进入设置更改 Safari 默认搜索引擎为 DuckDuckGO
+# 可自行修改指令或者添加搜索引擎
+
+# gm (谷歌图片)
+^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ url 302 https://www.google.com/search?&tbm=isch&q=$1
+
+# gh (github)
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ url 302 https://github.com/search?q=$1
+
+# sof (Stack Overflow)
+^https:\/\/duckduckgo.com\/\?q=sof\+([^&]+).+ url 302 https://stackoverflow.com/search?q=$1
+
+# se(StackExchange)
+^https:\/\/duckduckgo.com\/\?q=se\+([^&]+).+ url 302 https://stackexchange.com/search?q=$1
+
+# wa(WolfamAlpha)
+^https:\/\/duckduckgo.com\/\?q=wa\+([^&]+).+ url 302 https://www.wolframalpha.com/input/?i=$1
+
+# wiki (维基百科)
+^https:\/\/duckduckgo.com\/\?q=wiki(\+|%20)([^&]+).+ url 302 http://wikipedia.org/wiki/$2
+
+# wk(维基百科中文)
+^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ url 302 https://zh.wikipedia.org/wiki/$2
+
+# mg (Magi)
+^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ url 302 https://magi.com/search?q=$2
+
+# tf(google搜索Testflight)
+^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ url 302 https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
+
+# > 翻译
+# yd(有道翻译)
+^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ url 302 http://dict.youdao.com/search?q=$1
+
+# trc(Google翻译到中文)
+^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
+
+# tre(Google翻译到English)
+^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+
+# trj(Google翻译到日语)
+^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
+
+# 社区
+# db(豆瓣)
+^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ url 302 https://m.douban.com/search/?query=$1
+
+# zh(知乎)
+^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+ url 302 https://www.zhihu.com/search?type=content&q=$1
+
+# wb(微博)
+^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ url 302 https://s.weibo.com/weibo/$1
+
+# wx(微信)
+^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ url 302 https://weixin.sogou.com/weixinwap?query=$1
+
+# rd(Reddit)
+^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+ url 302 https://www.reddit.com/search?q=$1
+
+# tw(Twitter)
+^https:\/\/duckduckgo.com\/\?q=tw\+([^&]+).+ url 302 https://twitter.com/search?q=$1
+
+# ssp(少数派)
+^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+ url 302 https://sspai.com/search/post/$1
+
+# csdn(CSDN)
+^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ url 302 https://so.csdn.net/so/search/s.do?q=$1&t=&u= 
+
+# > 购物
+# zdm(什么值得买)
+^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ url 302 https://search.m.smzdm.com/?v=b&s=$1
+
+# amz(亚马逊)
+^https:\/\/duckduckgo.com\/\?q=amz\+([^&]+).+ url 302 https://www.amazon.cn/gp/aw/s/?k=$1
+
+# jd(京东)
+^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ url 302 https://so.m.jd.com/ware/search.action?keyword=$1
+
+# tb(淘宝)
+^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ url 302 https://s.m.taobao.com/h5?q=$1
+
+# tm(天猫)
+^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ url 302 https://s.m.tmall.com/m/search.htm?q=$1
+
+# > 视频资源
+# ac(Acfun)
+^https:\/\/duckduckgo.com\/\?q=ac\+([^&]+).+ url 302 https://www.acfun.cn/search?keyword==$1
+
+# bli(哔哩哔哩)
+^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ url 302 https://m.bilibili.com/search?keyword=$1
+
+# ytb(YouTube)
+^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ url 302 https://www.youtube.com/results?search_query=$1
+
+# ph(PornHub)
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ url 302 https://cn.pornhub.com/video/search?search=$1
+
+# > 网盘
+
+# gd(Google Drive)
+^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ url 302 https://www.google.com/search?q=%22Google+Drive%22+$1
+
+# tgd(t.me/gdurl 搜索Google Drive)
+^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ url 302 https://t.me/s/gdurl?q=$1
+
+# zgd(zhao.pp.ua搜索Google Drive)
+^https:\/\/duckduckgo.com\/\?q=zgd(\+|%20)([^&]+).+ url 302 https://zhao.pp.ua/?q=$2
+
+# > 默认搜索
+
+# bi(Bing)
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ url 302 https://cn.bing.com/search?q=$1
+
+# bd(BaiDu)
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302 https://www.baidu.com/s?wd=$1
+
+# ddg(DckDuckgo)
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
+
+# 无指令(谷歌)
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
+
+# 阻止google.com 跳转到google.com.hk
+^https?:\/\/(www\.)?g\.cn url 302 https://www.google.com
+^https?:\/\/(www\.)?google\.cn url 302 https://www.google.com
+# ================ Safari全能搜索 结束 ================
+
