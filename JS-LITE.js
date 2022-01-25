@@ -1,9 +1,27 @@
- hostname = *.gotokeep.com,*.wtzw.com,*.xiaohongshu.com,api.account.meitu.com, api.meiyan.com,vira.llsapp.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,api.rr.tv, *.baidu.com,notability.com, openapi.17usoft.net,bmall.camera360.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,claritywallpaper.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.com,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,ms.jr.jd.com,wmapi.meituan.com,gw.alicdn.com,elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,apis.lifeweek.com.cn,support.you.163.com,yanxuan.nosdn.127.net,*.peopleapp.com,api-mifit-sg2.huami.com,new-app-api.ylyk.com,gw.aihuishou.com,*.58cdn.com.cn, app.58.com,acs.m.taobao.com,static.zhihu.com,res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,api.gotokeep.com,pages.xiaohongshu.com, www.xiaohongshu.com
+ hostname = i.xinyulib.com.cn, user-kaji-api.b612kaji.com,buy.itunes.apple.com,server.yoyiapp.com,api.revenuecat.com, *.gotokeep.com,*.wtzw.com,*.xiaohongshu.com,api.account.meitu.com, api.meiyan.com,vira.llsapp.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,api.rr.tv, *.baidu.com,notability.com, openapi.17usoft.net,bmall.camera360.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,claritywallpaper.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,*.csdn.net,mid.zineapi.com,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.com,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com, biz.caiyunapp.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,bea.sportq.com,greasyfork.org, openuserjs.org,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,ms.jr.jd.com,wmapi.meituan.com,gw.alicdn.com,elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,apis.lifeweek.com.cn,support.you.163.com,yanxuan.nosdn.127.net,*.peopleapp.com,api-mifit-sg2.huami.com,new-app-api.ylyk.com,gw.aihuishou.com,*.58cdn.com.cn, app.58.com,acs.m.taobao.com,static.zhihu.com,res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,api.gotokeep.com,pages.xiaohongshu.com, www.xiaohongshu.com
+
+# 新语听书解锁会员 by Hausd0rff i.xinyulib.com.cn
+^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XinYuLibraryProCrack.js
+
+# B612咔叽 by ddgksf2013  user-kaji-api.b612kaji.com,
+https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/612.js
+
+# OldRoll解锁永久会员 by Hausd0rff buy.itunes.apple.com
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
+
+# NewFace解锁永久会员 by Hausd0rff buy.itunes.apple.com
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NewFaceFVIPCrack.js
+
+# FIMO解锁全部胶卷 by Hausd0rff server.yoyiapp.com
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js
+
+# AudioMack解锁永久订阅 api.revenuecat.com
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/(identify|\d+)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackProCrack.js
 
 # keep解锁会员    *.gotokeep.com
 ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/keep.js
 
-# > 七猫小说(2022.01.18 *.wtzw.com)
+# 七猫小说(2022.01.18 *.wtzw.com)
 ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
 
 # 小红书开屏广告 *.xiaohongshu.com
@@ -405,68 +423,68 @@ https:\/\/greasyfork\.org\/scripts\/.*\.user\.js url script-response-body https:
 
 # ================ 去广告 ================
 
-# > 22 京东金融开屏广告  ms.jr.jd.com
+# 京东金融开屏广告  ms.jr.jd.com
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture url reject
 
-# > 21 美团外卖开屏广告 wmapi.meituan.com
+# 美团外卖开屏广告 wmapi.meituan.com
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? url reject
 
-# > 40 闲鱼 gw.alicdn.com
+# 闲鱼 gw.alicdn.com
 ^https:\/\/gw.alicdn.com\/mt\/ url reject
 ^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4} url reject
 ^https:\/\/gw.alicdn.com\/tps\/.+\d{3,4}-\d{4} url reject
 
-# > 39 饿了么  elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,
+# 饿了么  elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,
 ^https?:\/\/elemecdn.com\/.+\/sitemap url reject
 ^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} url reject
 ^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} url reject
 ^https?:\/\/fuss10.elemecdn.com\/.+.mp4 url reject
 ^https?:\/\/www1.elecfans.com\/www\/delivery\/ url reject
 
-# > 61 三联中读开屏广告@ddgksf2013  apis.lifeweek.com.cn
+# 三联中读开屏广告@ddgksf2013  apis.lifeweek.com.cn
 https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig url reject
 
-# > 60 网易严选（清除缓存使用）@ddgksf2013 support.you.163.com,yanxuan.nosdn.127.net
+# 网易严选（清除缓存使用）@ddgksf2013 support.you.163.com,yanxuan.nosdn.127.net
 https://support.you.163.com/appversync/check.do url reject
 https:\/\/yanxuan.nosdn.127.net\/(static-union\/)?.*\.gif url reject
 https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 url reject
 
-# > 59 人民日报@ddgksf2013 *.peopleapp.com
+# 人民日报@ddgksf2013 *.peopleapp.com
 ^https:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/getAdvertImage url reject
 ^https:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/adv url reject-dict
 ^https?:\/\/stat\.peopleapp\.com\/ url reject
 
-# > 58 小米运动（需卸载重装）@ddgksf2013 api-mifit-sg2.huami.com
+# 小米运动（需卸载重装）@ddgksf2013 api-mifit-sg2.huami.com
 https://api-mifit-sg2.huami.com/discovery/mi/cards\? url reject
 https://api-mifit-sg2.huami.com/discovery/mi/cards/homepage_ad\? url reject
 ^https?:\/\/api-mifit-sg2.huami.com\/discovery\/mi\/discovery\/(homepage_ad|sleep_ad|sport_ad|sport_summary_ad|sport_training_ad|step_detail_ad|training_video_ad)\? url reject
 
-# > 57 友邻优课@ddgksf2013 new-app-api.ylyk.com
+# 友邻优课@ddgksf2013 new-app-api.ylyk.com
 https://new-app-api.ylyk.com/v1/user/myinfo/adviser url reject
 
-# > 56 爱回收  gw.aihuishou.com
+# 爱回收  gw.aihuishou.com
 ^https?:\/\/gw.aihuishou.com\/app-portal\/home\/getadvertisement url reject
 
-# > 55 五八同城  *.58cdn.com.cn, app.58.com
+# 五八同城  *.58cdn.com.cn, app.58.com
 ^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ url reject
 ^https?:\/\/app\.58\.com\/api\/home\/advertising\/ url reject
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/ url reject
 
-# > 54 淘票票@fangpide acs.m.taobao.com
+# 淘票票@fangpide acs.m.taobao.com
 ^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* url reject
 
-# > 53 屏蔽知乎网页版强制登陆弹窗@HotKids  static.zhihu.com
+# 屏蔽知乎网页版强制登陆弹窗@HotKids  static.zhihu.com
 ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js url reject
 
-# > 50 滴滴出行（推荐英文版）@ddgksf2013 res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,
+# 滴滴出行（推荐英文版）@ddgksf2013 res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,
 https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
 
-# > 46 Keep开屏广告屏蔽@ddgksf2013  api.gotokeep.com
+# Keep开屏广告屏蔽@ddgksf2013  api.gotokeep.com
 https://api.gotokeep.com/op-engine-webapp/v1/ad url reject
 https://api.gotokeep.com/ads/v1/ads/preload url reject
 
-# > 41 小红书 pages.xiaohongshu.com, www.xiaohongshu.com
+# 小红书 pages.xiaohongshu.com, www.xiaohongshu.com
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record* url reject
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage* url reject
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource* url reject
