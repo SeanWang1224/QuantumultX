@@ -47,10 +47,25 @@ https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status ur
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
 
 # 人人视频 api.rr.tv
-^https:\/\/api\.rr\.tv\/user\/privilege\/list url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
-^https:\/\/api\.rr\.tv\/ad\/getAll url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
-^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
-^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail\?(.+)quality=\w+(.+) url 302 https://api.rr.tv/drama/app/get_combined_drama_detail?$1quality=AI_OD$2
+# ～ ⑨ RRTV_屏蔽软件更新@ddgksf2013
+^https?:\/\/api\.rr\.tv\/.*?Version url reject
+# ～ ⑧ RRTV_去除首頁廣告@ddgksf2013
+https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ⑦ RRTV_去除廣場tab@ddgksf2013
+^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ⑥ RRTV_去除商城廣告@ddgksf2013
+^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ⑤ RRTV_Ad_List@ddgksf2013
+^https:\/\/api\.rr\.tv\/user\/privilege\/list url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ④ RRTV_Ad_All@ddgksf2013
+^https:\/\/api\.rr\.tv\/ad\/getAll url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ③ RRTV_Get_Drama@ddgksf2013
+^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ② RRTV_Watch_V4@ddgksf2013
+https://api.rr.tv/watch/v4 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+# ～ ① RRTV_User_Info@ddgksf2013
+https://api.rr.tv/user/profile url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
+
 
 # 国区TF无法下载已下架app规则
 ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*", request-body storefrontId" : "143441-1,29",
