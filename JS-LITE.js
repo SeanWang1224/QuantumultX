@@ -53,6 +53,8 @@ https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status ur
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
 
 # 人人视频 api.rr.tv
+# ～ ⓪ RRTV_屏蔽限时弹窗@ddgksf2013
+https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON url reject-dict
 # ～ ⑨ RRTV_屏蔽软件更新@ddgksf2013
 ^https?:\/\/api\.rr\.tv\/.*?Version url reject
 # ～ ⑧ RRTV_去除首頁廣告@ddgksf2013
