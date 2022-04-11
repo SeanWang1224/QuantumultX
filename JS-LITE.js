@@ -93,7 +93,7 @@ https://notability.com/subscriptions url script-response-body https://raw.github
 https:\/\/api\.weibo\.com\/oauth2\/getaid url reject
 
 # 10086去开屏广告
-https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
+;https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
 
 # keep 去广告
 https:\/\/api\.gotokeep\.com\/ads\/v1\/ads\?spotIds url reject
