@@ -1,14 +1,11 @@
  hostname = buy.itunes.apple.com,appraven.net,biz.caiyunapp.com,*.baidu.com,mid.zineapi.com,api.feidee.net, userapi.feidee.net, tg.feidee.com, community.feidee.com
-,app.api.versa-ai.com,i.xinyulib.com.cn, user-kaji-api.b612kaji.com,buy.itunes.apple.com,server.yoyiapp.com,api.revenuecat.com, *.gotokeep.com,*.wtzw.com,*.xiaohongshu.com,api.account.meitu.com, api.meiyan.com,vira.llsapp.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,api.rr.tv, *.baidu.com,notability.com, openapi.17usoft.net,bmall.camera360.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,*.csdn.net,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,vsco.co, api.revenuecat.com,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,api.revenuecat.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,bea.sportq.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,ms.jr.jd.com,wmapi.meituan.com,gw.alicdn.com,elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,apis.lifeweek.com.cn,support.you.163.com,yanxuan.nosdn.127.net,*.peopleapp.com,api-mifit-sg2.huami.com,new-app-api.ylyk.com,gw.aihuishou.com,*.58cdn.com.cn, app.58.com,acs.m.taobao.com,static.zhihu.com,res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,api.gotokeep.com,pages.xiaohongshu.com, www.xiaohongshu.com
+,app.api.versa-ai.com,i.xinyulib.com.cn, user-kaji-api.b612kaji.com,buy.itunes.apple.com,server.yoyiapp.com, *.gotokeep.com,*.wtzw.com,*.xiaohongshu.com,api.account.meitu.com, api.meiyan.com,vira.llsapp.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,api.rr.tv,notability.com, openapi.17usoft.net,bmall.camera360.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,*.csdn.net,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,bea.sportq.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,ms.jr.jd.com,wmapi.meituan.com,gw.alicdn.com,elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,apis.lifeweek.com.cn,support.you.163.com,yanxuan.nosdn.127.net,*.peopleapp.com,api-mifit-sg2.huami.com,new-app-api.ylyk.com,gw.aihuishou.com,*.58cdn.com.cn, app.58.com,acs.m.taobao.com,static.zhihu.com,res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,api.gotokeep.com,pages.xiaohongshu.com, www.xiaohongshu.com
 
 # TextEditor  buy.itunes.apple.com
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/TextEditor.js
 
 # appraven美化（2022-03-23）@ddgksf2013 appraven.net
 ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/appraven.js
-
-# 圖圖記賬解鎖會員權限 api.revenuecat.com
-https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/tutujizhang.js
 
 # 彩云天气 biz.caiyunapp.com
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user.+ url script-response-body https://gjds.vip/QX/pojie/cytq.js
@@ -41,9 +38,6 @@ https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status ur
 
 # FIMO解锁全部胶卷 by Hausd0rff server.yoyiapp.com
 ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js
-
-# AudioMack解锁永久订阅 api.revenuecat.com
-# ^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/(identify|\d+)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js
 
 # keep解锁会员    *.gotokeep.com
 ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/keep.js
@@ -89,9 +83,6 @@ https://api.rr.tv/user/profile url script-response-body https://raw.githubuserco
 # 国区TF无法下载已下架app规则
 ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*", request-body storefrontId" : "143441-1,29",
 
-# 强制跳转百度UA    *.baidu.com
-^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com url request-header (\r\n)User-Agent:.+iPhone.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
-
 # notability 订阅 （notability.com）
 https://notability.com/subscriptions url script-response-body https://raw.githubusercontent.com/SeanWang1224/QuantumultX/master/QuantumultX-Script/Notability.js
 
@@ -99,7 +90,7 @@ https://notability.com/subscriptions url script-response-body https://raw.github
 https:\/\/api\.weibo\.com\/oauth2\/getaid url reject
 
 # 10086去开屏广告
-;https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
+https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
 
 # keep 去广告
 https:\/\/api\.gotokeep\.com\/ads\/v1\/ads\?spotIds url reject
@@ -112,9 +103,6 @@ https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+ url script-r
 
 # 泼辣修图 (api.polaxiong.com)(需恢复购买)
 https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts/confirmation url script-request-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
-
-# 百度网盘解锁vip，视频倍速播放 (pan.baidu.com)
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/BaiduCloud.js
 
 # 爱美剧Vip (by huihui）(官网：app.meiju2018.com) (api.bjxkhc.com)
 #ads
@@ -156,9 +144,6 @@ http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.gi
 # 小小影视 unlock Vip&免广告(*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com)
 https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js
 
-# 百度防跳转
-^https?:\/\/.*\.baidu\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
-
 # CSDN(,*.csdn.net)
 .*:\/\/.*\.csdn\.net\/.* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/csdn.js
 
@@ -191,7 +176,7 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body   https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js
 
 # VSCO滤镜VIP( vsco.co, api.revenuecat.com)
-^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ url script-response-body https://raw.githubusercontent.com/SeanWang1224/QuantumultX/master/QuantumultX-Script/Vsco.js
+;^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ url script-response-body https://raw.githubusercontent.com/SeanWang1224/QuantumultX/master/QuantumultX-Script/Vsco.js
 
 # 大片-视频编辑器 VIP(api.vnision.com)
 ^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
@@ -266,9 +251,6 @@ https:\/\/www\.xmind\.cn\/\_res\/devices url script-response-body https://raw.gi
 
 # VideoStar Unlock（*.videostarapp.com,）
 ^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/VideoStar.js
-
-# Pillow (api.revenuecat.com)
-https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
 
 # 马卡龙 (app.api.versa-ai.com)
 https://app.api.versa-ai.com/pay/order/iap/check url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mkl.js
