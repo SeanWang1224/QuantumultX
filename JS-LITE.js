@@ -1,5 +1,5 @@
  hostname =www.xmind.cn, www.xmind.net,shimo.im,buy.itunes.apple.com,appraven.net,biz.caiyunapp.com,*.baidu.com,mid.zineapi.com,api.feidee.net, userapi.feidee.net, tg.feidee.com, community.feidee.com
-,app.api.versa-ai.com,i.xinyulib.com.cn, user-kaji-api.b612kaji.com,buy.itunes.apple.com,server.yoyiapp.com, *.gotokeep.com,*.wtzw.com,*.xiaohongshu.com,api.account.meitu.com, api.meiyan.com,vira.llsapp.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,api.rr.tv,notability.com, openapi.17usoft.net,bmall.camera360.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,*.csdn.net,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,bea.sportq.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,ms.jr.jd.com,wmapi.meituan.com,gw.alicdn.com,elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,apis.lifeweek.com.cn,support.you.163.com,yanxuan.nosdn.127.net,*.peopleapp.com,api-mifit-sg2.huami.com,new-app-api.ylyk.com,gw.aihuishou.com,*.58cdn.com.cn, app.58.com,acs.m.taobao.com,static.zhihu.com,res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,api.gotokeep.com,pages.xiaohongshu.com, www.xiaohongshu.com
+,app.api.versa-ai.com,i.xinyulib.com.cn, user-kaji-api.b612kaji.com,buy.itunes.apple.com,server.yoyiapp.com, *.gotokeep.com,*.xiaohongshu.com,api.account.meitu.com, api.meiyan.com,vira.llsapp.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,api.rr.tv,notability.com, openapi.17usoft.net,bmall.camera360.com,api.polaxiong.com,pan.baidu.com,api.bjxkhc.com,guide-acs.m.taobao.com,ap?.bilibili.com,weixin110.qq.com,web.vizmato.com,api.neuralprisma.com,getuserinfo-globalapi.zymk.cn,account.wps.cn,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,*.csdn.net,ws.60he.com,pan.baidu.com,mb3admin.com,*.googlevideo.com,baimiao.uzero.cn,nmeditation.snailsleep.net,snailsleep.net,music.snailsleep.net,community.snailsleep.net,vip1.kuwo.cn,api.vnision.com,dida365.com, ticktick.com, p.du.163.com,account.wps.cn, api.gyrosco.pe,origin-prod-phoenix.jibjab.com,api.termius.com,viva.v21xy.com,ap*.intsig.net,api.vuevideo.net,mp.bybutter.com,api.picsart.c*, api.meiease.c*,splice.oracle.*.com,api.textnow.me,commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com,dict.eudic.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.videostarapp.com,app.api.versa-ai.com,*.xunjie*.com,avoscloud.com,bea.sportq.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,mp.weixin.qq.com, *.amemv.com, ios-h2.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com, haojia.m.smzdm.com, app-api.smzdm.com, s-api.smzdm.com,ms.jr.jd.com,wmapi.meituan.com,gw.alicdn.com,elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com,apis.lifeweek.com.cn,support.you.163.com,yanxuan.nosdn.127.net,*.peopleapp.com,api-mifit-sg2.huami.com,new-app-api.ylyk.com,gw.aihuishou.com,*.58cdn.com.cn, app.58.com,acs.m.taobao.com,static.zhihu.com,res.xiaojukeji.com, 116.85.2.15, 116.85.2.14,api.gotokeep.com,pages.xiaohongshu.com, www.xiaohongshu.com
 
 # 解锁Xmind思维导图订阅到2030年  www.xmind.cn, www.xmind.net
 https?:\/\/www\.xmind\.(cn|net)\/\_res\/devices url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js
@@ -46,10 +46,7 @@ https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status ur
 ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js
 
 # keep解锁会员    *.gotokeep.com
-^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/keep.js
-
-# 七猫小说(2022.01.18 *.wtzw.com)
-^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
+^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/keep
 
 # 小红书开屏广告 *.xiaohongshu.com
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js
@@ -99,9 +96,6 @@ https:\/\/api\.weibo\.com\/oauth2\/getaid url reject
 
 # 10086去开屏广告
 https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
-
-# keep 去广告
-https:\/\/api\.gotokeep\.com\/ads\/v1\/ads\?spotIds url reject
 
 # 微信小程序搜索🔍同程旅行✈️点击主页下面的【火车票优惠】即可（openapi.17usoft.net）
 https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+ url script-request-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
@@ -497,8 +491,8 @@ https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
 
 # Keep开屏广告屏蔽@ddgksf2013  api.gotokeep.com
-https://api.gotokeep.com/op-engine-webapp/v1/ad url reject
-https://api.gotokeep.com/ads/v1/ads/preload url reject
+^https?:\/\/api\.gotokeep\.com\/ads url reject
+^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad url reject
 
 # 小红书 pages.xiaohongshu.com, www.xiaohongshu.com
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record* url reject
